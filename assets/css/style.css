@@ -863,7 +863,13 @@ line-height: 26px;
    .popularcourse-para{
          text-align: center;
    }
- 
+   
+.footer-right{
+  display: flex;
+  gap: 170px;
+  flex-wrap: wrap;
+  
+}
    
 }
 
