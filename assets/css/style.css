@@ -623,7 +623,7 @@ padding-bottom: 20px;
 
 .blogs{
  
-      background: #FFFCF4;
+     
       padding-top: 96px;
       padding-bottom: 96px;
 }
@@ -640,6 +640,7 @@ width: 448px;
 
 .blog-section{
    padding-top: 200px;
+   background: #FFFCF4;
 
 }
 .blog-title-para{
