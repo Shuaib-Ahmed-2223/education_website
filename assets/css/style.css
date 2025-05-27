@@ -467,9 +467,30 @@ margin-top: 12px;
 }
 
 .book-now-btn:hover{
+  border-radius: 25px;
+    background: #FFB900;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 185.714% */
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    width: 118px;
+height: 50px;
+margin-top: 12px;
+ text-decoration: none;
+}
+
+.book-now-btn-black{
 
     border-radius: 25px;
-    background: #FFB900;
+    background: #171100;
     color: #FFF;
     text-align: center;
     font-family: Poppins;
@@ -491,6 +512,17 @@ text-decoration: none;
  background:  #FFB900;
 }
 
+.read-more-btn{
+  color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 185.714% */
+border-radius: 25px;
+background: #171100;
+}
 .image-des{
     padding-top: 16px;
     padding-right: 20px;
