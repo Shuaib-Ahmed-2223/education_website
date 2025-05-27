@@ -447,7 +447,7 @@ line-height: 30px;
 .book-now-btn{
 
     border-radius: 25px;
-    background: #FFB900;
+    background: #171100 ;
     color: #FFF;
     text-align: center;
     font-family: Poppins;
@@ -466,10 +466,10 @@ margin-top: 12px;
  text-decoration: none;
 }
 
-.book-now-btn-black{
+.book-now-btn:hover{
 
     border-radius: 25px;
-    background: #171100;
+    background: #FFB900;
     color: #FFF;
     text-align: center;
     font-family: Poppins;
