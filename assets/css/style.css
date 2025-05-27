@@ -169,6 +169,18 @@ flex: 1 1 300px;
   cursor: pointer;
   display: inline-block;
 }
+  #prev-arrow svg:hover circle,
+  #next-arrow svg:hover circle {
+    fill: #FFB900;
+    transition: fill 0.3s ease;
+    
+  }
+    #prev-arrow svg:hover path,
+  #next-arrow svg:hover path {
+    stroke: #ffffff;
+    transition: stroke 0.3s ease;
+  }
+
 .arrows {
   display: flex;
   gap: 10px;
@@ -256,9 +268,12 @@ font-weight: 600;
 line-height: 30px; /* 166.667% */
 padding: 17px 33px;
 border-radius: 32px;
-background: #FFB900;
+background: #171100;
   border: none;
 
+}
+.courses-btn:hover{
+  background: #FFB900 ;
 }
 
 .svg-course-icon{
@@ -471,6 +486,9 @@ margin-top: 12px;
 height: 50px;
 margin-top: 12px;
 text-decoration: none;
+}
+.book-now-btn-black:hover{
+ background:  #FFB900;
 }
 
 .image-des{
